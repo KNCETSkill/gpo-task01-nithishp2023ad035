@@ -12,7 +12,7 @@ public class BrewSizeAdvisor {
             printf("Large");
         } else if(volume>=200 && volume<=350){
             printf("Medium");       
-        } else {
+        } else if(vloume<200){
             printf("Small");
                 }
         // Print "Small", "Medium", or "Large"
